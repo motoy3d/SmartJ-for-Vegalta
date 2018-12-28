@@ -2,11 +2,11 @@
 <ti:app xmlns:ti="http://ti.appcelerator.org">
     <id>smartj.vegalta</id>
     <name>SmartJ for Vegalta</name>
-    <version>1.0.2</version>
+    <version>1.1.0</version>
     <publisher>Motoi Kataoka</publisher>
     <url>http://motoy3d.blogspot.com</url>
     <description>ベガルタ仙台アプリ！</description>
-    <copyright>2017 by Motoi Kataoka</copyright>
+    <copyright>2018 by Motoi Kataoka</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
@@ -36,8 +36,6 @@
                 </dict>
             </dict>
         </plist>
-    </ios>
-    <iphone>
         <statusbar-hidden>false</statusbar-hidden>
         <fullscreen>false</fullscreen>
         <orientations device="iphone">
@@ -49,7 +47,7 @@
             <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
             <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
         </orientations>
-    </iphone>
+    </ios>
     <android xmlns:android="http://schemas.android.com/apk/res/android"/>
     <modules>
         <module platform="iphone">de.marcelpociot.social</module>
@@ -58,8 +56,7 @@
         <target device="android">true</target>
         <target device="ipad">false</target>
         <target device="iphone">true</target>
-        <target device="mobileweb">false</target>
     </deployment-targets>
-    <sdk-version>6.1.2.GA</sdk-version>
+    <sdk-version>7.5.0.GA</sdk-version>
     <property name="appc-app-id" type="string">5986cdb74e6d8e1c78f6ff10</property>
 </ti:app>
